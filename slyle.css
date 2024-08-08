@@ -1,0 +1,77 @@
+ody {
+    color: rgb(255, 123, 0);
+    background: rgb(24, 11, 0);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 123, 0);
+    display: flex;
+}
+
+.chamada {
+    background: rgb(45, 29, 14);
+    padding-bottom: 50-px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.videofab {
+    background: rgb(45, 29, 14);
+    padding-bottom: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+} 
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 0px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(252, 186, 125);
+}
+
+.fimfabricio{
+    background: rgb(0, 0, 0);
+    padding-bottom: 1px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria h2 {
+    color: rgb(255, 123, 0);
+}
